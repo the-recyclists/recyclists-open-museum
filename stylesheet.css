@@ -1,7 +1,149 @@
-body {
-    background: lightgrey;
+#scrolling-content {
+  height: 300px;
+  overflow-y: scroll;
 }
 
-h1 {
-    text-align: center;
+#navigation-bar {
+	display: block;
+	background-color: none;
+	position: absolute
+	top: 0;
+	left: 0;
+}
+* {
+padding: 0;
+margin: 0;
+font-family: 'Fredoka One';
+position: relative;
+}
+ul {
+list-style: none;
+background: none;
+border: 2px solid black;
+width: 33.205%;
+}
+ul li {
+display: inline-block;
+position: relative;
+} 
+ul li a {
+display: block;
+padding: 20px 25px;
+color: black;  
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+border-right: 2px solid black;
+}
+a:hover { /* the visibility of making of the element look underlined pink */
+  color: pink;
+  text-decoration: underline;
+}
+
+#signed-in { /* the word */ 
+	float: right;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	font-family: 'Fredoka One';
+	width: 100px;
+}
+#people-symbol {
+	position: absolute;
+	top: 9px;
+	right: 14px;
+	width: 50x;
+	height: 50px;	
+}
+
+
+#welcome-headline {
+padding: 0;
+color: black;
+text-align: center;
+font-size: 50px;
+font-family: 'Fredoka One';
+top: -42px;
+}
+
+
+#biking { /* an image */ 
+	position: absolute;
+	top: 200px;
+	right: 795px;
+	width: 280x;
+	height: 280px;	
+}
+#title { /* "What is it like to live in Amsterdam?" */ 
+	position: absolute;
+	top: 185px;
+	right: 260px;
+	font-size: 28px;
+	font-family: 'Fredoka One';
+	width: 500px;
+}
+#body {
+	position: absolute;
+	top: 240px;
+	right: 360px;
+	font-size: 24px;
+	font-family: 'OpenSans', sans-serif;
+	width: 400px;
+}
+
+#map { /* an image */ 
+	position: absolute;
+	top: 490px;
+	right: 455px;
+	width: 220x;
+	height: 220px;	
+}
+#title2 { /* "Game" */ 
+	position: absolute;
+	top: 500px;
+	right: 600px;
+	font-size: 28px;
+	font-family: 'Fredoka One';
+	width: 500px;
+}
+#body2 {
+	position: absolute;
+	top: 540px;
+	right: 700px;
+	font-size: 24px;
+	font-family: 'OpenSans', sans-serif;
+	width: 400px;
+}
+#play-button {
+	position: absolute;
+	top: 644px;
+	right: 915px;
+	font-size: 27px;
+	font-family: 'OpenSans', sans-serif;
+}
+#play-button a{ /* the activation of the 'play' button */ 
+	color: black;
+	text-decoration: none;
+	font-weight: normal;
+	font-family: 'OpenSans', sans-serif;
+}
+#play-button:hover { /* the addition of a green click */ 
+  color: green;
+}
+#stakeholder {  /* "Urban Cycling institute" brand image */ 
+	float: left;
+	position: fixed;
+	top: 720px;
+	right: 1350px;
+	width: 50x;
+	height: 50px;
+}	
+
+#share-buttons {
+	float: left;
+	position: fixed;
+	top: 720px;
+	right: 80px;
+	width: 50x;
+	height: 50px;
 }
