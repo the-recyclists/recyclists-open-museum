@@ -3,20 +3,43 @@
 <head>
 	<link rel="stylesheet" href="stylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-<link href="<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <meta charset="utf-8">
 <title>Our website prototype</title>
 </head>
 <body>
-	<ul>
-<!-- The elements in the navigation bar -->
-	  <li><a href="#">Home</a></li>
-	  <li><a href="map.html">Map</a></li>
-	  <li><a href="#">Place</a></li>
-	  <li><a href="#">Learn more</a></li>
-	</ul>
-	
+
+<ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+max-width: 500px position: absolute;">
+	<li class="nav-item" role="presentation">
+	  <a class="nav-link active rounded-10" href="index.html">Home</a>
+	</li>
+	<li class="nav-item" role="presentation">
+	  <a class="nav-link rounded-10" href="map.html">Map</a>
+	</li>
+	<li class="nav-item" role="presentation">
+	  <a class="nav-link rounded-10" id="places-button">Places</a>
+	</li>
+	<li class="nav-item" role="presentation">
+	  <a class="nav-link rounded-10" id="learn-more-button" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Learn more</a>
+	</li>
+</ul>
+
+<script>
+	var navButtons = document.querySelectorAll("#pillNav2 .nav-link");
+			for (var i = 0; i < navButtons.length; i++) {
+				navButtons[i].addEventListener("mouseover", function() {
+					this.style.backgroundColor = "lightgreen";
+					this.style.fontfamily = "Fredoka One"
+				});
+				navButtons[i].addEventListener("mouseout", function() {
+					this.style.backgroundColor = "";
+				});
+			}
+</script>
+
 <!-- The images on the Home Page -->
 <img id="people-symbol" src="people symbol.png" alt="People symbol">
 <img id="biking" src="biking.png" alt="Biking">
@@ -25,17 +48,14 @@
 <img id="share-buttons" src="share buttons.png" alt="Share buttons">
 
 <!-- The creation of rectangles in the Home Page -->
-<div style="width: 1275px; height: 70px; 
-background-color: lightpink; border: 1px solid black; 
-postion: absolute; top:25px; right:-75px;"></div>
-	<div id="welcome-headline">Welcome!</div>
-	
-<div style="width: 405px; height: 60px; 
-background-color: lightgreen; border: 1px solid black; 
-postion: absolute; top:430px; right:-300px;"></div>
 
-<!-- The activation of the "play button" -->
-<div id="play-button">Play!</a></div>
+<div style="width: 1200px; height: 70px; 
+background-color: lightpink; border: 1px solid black; 
+position: absolute; top:95px; right:100px; color: black;
+text-align: center;
+font-size: 50px;
+font-family: 'Fredoka One';
+">Welcome!</div>
 
 <!-- Defining ids in the style tag -->
 <div id="signed-in">
@@ -46,7 +66,14 @@ postion: absolute; top:430px; right:-300px;"></div>
 	
 <div id="title2">Game</div>
 	<div id="body2">text text text explanation of the game blah blah blah explain even more</div>
-	
+
+<!-- Using Bootstrap on creating a "Play" button-->
+<a href="map.html" class="btn btn-success btn-lg" role="button" data-bs-toggle="button" style="margin: 630px 0 0 -860px;">Play!</a>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+</script>
+
 </body>
 </html>
 		

@@ -5,3 +5,19 @@
 	width: 50x;
 	height: 50px;	
 }
+
+ul {
+	list-style-type: none;
+  }
+ul li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+}
+#pillNav2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
