@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn More</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="learn-more-stylesheet" href="learn-more.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+	<ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+max-width: 500px position: absolute;">
+		<li class="nav-item" role="presentation">
+			<a class="nav-link active rounded-10" href="index.html">Home</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link rounded-10" href="map.html">Map</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link rounded-10" id="places-button">Places</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link rounded-10" id="learn-more-button" data-bs-toggle="tab" type="button" role="tab"
+				aria-selected="false">Learn more</a>
+		</li>
+	</ul>
+
+	<script>
+		var navButtons = document.querySelectorAll("#pillNav2 .nav-link");
+		for (var i = 0; i < navButtons.length; i++) {
+			navButtons[i].addEventListener("mouseover", function () {
+				this.style.backgroundColor = "lightgreen";
+				this.style.fontfamily = "Fredoka One"
+			});
+			navButtons[i].addEventListener("mouseout", function () {
+				this.style.backgroundColor = "";
+			});
+		}
+	</script>
+
+	<div style="width: 1200px; height: 70px; 
+background-color: lightpink; border: 1px solid black; 
+position: absolute; top:95px; right:100px; color: black;
+text-align: center;
+font-size: 50px;
+font-family: 'Fredoka One';
+">Debriefing</div>
+
+	<div style="width: 1200px; height: 400px; 
+background-color: rgb(253, 255, 182); border: 1px solid black; 
+position: absolute; top: 185px; right: 100px; color: black;
+text-align: left;
+font-size: 25px;
+padding-left: 10px;
+padding-top: 5px;
+font-family: 'Fredoka One';">
+		Congratulations on completing the Amsterdam Open Museum! We hope you enjoyed experiencing Amsterdam in a
+		unique way and learned about the city's cycling culture. Reflect on how you can apply what you learned to your
+		own community and promote cycling as a sustainable mode of transportation. Thank you for participating and hope
+		to see you again soon! <br>
+		<br>
+		Visit <a href="https://urbancyclinginstitute.com/" target="_blank">The Urban Cycling Institute</a> to follow
+		courses on
+		the subject
+		<br>
+		<br>
+		You can follow the online courses <a href="https://urbancyclinginstitute.com/online-courses/"
+			target="_blank">here</a>!
+
+	</div>
+
+
+	<!-- The images on the learn more page -->
+	<img id="stakeholder" src="stakeholder.png" alt="Urban Cycling Institute">
+
+
+
+
+
+</body>
+
+</html>
