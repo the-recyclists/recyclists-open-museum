@@ -129,29 +129,3 @@ button {
 	width: 50x;
 	height: 50px;
 }
-
-#bodyleft {
-	position: absolute;
-	top: 150px;
-	right: 900px;
-	font-size: 24px;
-	font-family: 'OpenSans', sans-serif;
-	width: 400px;
-	height: 450px;
-	background-color: lightgray;
-	border: 2px solid black;
-	padding: 10px;
-}
-
-#bodyright {
-	position: absolute;
-	top: 150px;
-	right: 605px;
-	font-size: 24px;
-	font-family: 'OpenSans', sans-serif;
-	width: 300px;
-	height: 450px;
-	background-color: lightgray;
-	border: 2px solid black;
-	padding: 10px;
-}
