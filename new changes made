@@ -3,6 +3,12 @@ Uncompleted- (x)
 In progress- (~)
 Done- (✓)
 -------------------------------------------------------------------------------
-The font of the "Play" box or the index page (✓)
-The activation of the "Play" box as a button that can be jumped to the map (✓)
-Make the navigation bar into another style -> with buttons adding the colour of green when the cursor is placed on it (✓)
+Deleting icons such as the share buttons, the person icon and the "signed-in" text. (✓)
+Using flex box change all of the positions of the elements (✓)
+Used padding, margin functions to position the elements beneath the heading (✓)
+Make a new Java Script file to move the js codes from the html to that new file, linked this js. to map.html (✓)
+Moving the style elements from the index-html to index.css (✓)
+Got the places.html link that Emma made and added into the index.html (~)
+
+Questions:
+How to change the font, i tried, but can't?

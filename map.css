@@ -3,21 +3,35 @@
 	top: 9px;
 	right: 80px;
 	width: 50x;
-	height: 50px;	
+	height: 50px;
 }
 
 ul {
 	list-style-type: none;
-  }
+}
+
 ul li {
 	display: inline-block;
 }
+
 a {
 	text-decoration: none;
 }
-#pillNav2 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 1;
+
+button {
+	cursor: pointer;
+}
+
+.nav {
+	--bs-nav-link-color: var(--bs-white);
+	--bs-nav-pills-link-active-color: var(--bs-primary);
+	--bs-nav-pills-link-active-bg: var(--bs-white);
+}
+
+#pillNav2 .nav-link {
+	border-radius: 30px;
+	margin-right: 30px;
+	padding: 10px 20px;
+	background-color: white;
+	color: black;
 }

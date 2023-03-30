@@ -3,42 +3,58 @@
 	overflow-y: scroll;
 }
 
-button {
+.button {
 	cursor: pointer;
+}
+
+.nav {
+	--bs-nav-link-color: var(--bs-white);
+	--bs-nav-pills-link-active-color: var(--bs-primary);
+	--bs-nav-pills-link-active-bg: var(--bs-white);
 }
 
 #pillNav2 .nav-link {
 	border-radius: 30px;
-	margin-right: 15px;
+	margin-right: 30px;
 	padding: 10px 20px;
-}
-
-#pillNav2 .nav-link {
 	background-color: white;
 	color: black;
 }
 
-
-#signed-in {
-	/* the word */
-	float: right;
-	position: absolute;
-	top: 12px;
-	right: 20px;
-	font-family: 'Fredoka One';
-	width: 100px;
+.flex-box-row {
+	display: flex;
+	flex-flow: row;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
-#people-symbol {
-	position: absolute;
-	top: 9px;
-	right: 14px;
-	width: 50x;
-	height: 50px;
+.flex-box-column {
+	margin-left: 30px;
+	display: flex;
+	flex-flow: column;
 }
 
-#welcome-headline {
-	padding: 0;
+.paddings {
+	padding: 20px
+}
+
+.flex-box-column-2 {
+	display: flex;
+	flex-flow: column;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.flex-box-row-2 {
+	display: flex;
+	flex-flow: row;
+}
+
+h1 {
+	/* Welcome headline */
+	padding-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
 	color: black;
 	text-align: center;
 	font-size: 50px;
@@ -46,86 +62,77 @@ button {
 	top: 1px;
 }
 
+#homepage-heading {
+	margin-bottom: 50px;
+	height: 70px;
+	background-color: lightpink;
+	border: 1px solid black;
+}
 
 #biking {
 	/* an image */
-	position: absolute;
-	top: 200px;
-	right: 795px;
 	width: 280x;
 	height: 280px;
 }
 
-#title {
-	/* "What is it like to live in Amsterdam?" */
-	position: absolute;
-	top: 185px;
-	right: 260px;
+h2 {
+	margin-left: 10px;
+	margin-right: 10px;
 	font-size: 28px;
 	font-family: 'Fredoka One';
-	width: 500px;
 }
 
-#body {
-	position: absolute;
-	top: 240px;
-	right: 360px;
+#title-1 {
+	/* Amsterdam In A Different Way title */
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -30px;
 	font-size: 24px;
 	font-family: 'OpenSans', sans-serif;
-	width: 400px;
 }
 
 #map {
-	/* an image */
-	position: absolute;
-	top: 490px;
-	right: 455px;
+	/* an image of a map */
+	padding-right: 35px;
+	margin-top: -58px;
 	width: 220x;
 	height: 220px;
 }
 
-#title2 {
-	/* "Game" */
-	position: absolute;
-	top: 500px;
-	right: 600px;
-	font-size: 28px;
-	font-family: 'Fredoka One';
-	width: 500px;
+
+#title-2 {
+	/* Game title */
+	margin-top: 40px;
+	margin-bottom: 5px
 }
 
-#body2 {
-	position: absolute;
-	top: 540px;
-	right: 700px;
-	font-size: 24px;
-	font-family: 'OpenSans', sans-serif;
-	width: 400px;
+#body-2 {
+	margin-top: -27px;
 }
 
-#play-button {
-	position: absolute;
-	top: 644px;
+.play-button {
+	margin-left: 500px;
+	margin-bottom: 20px;
 	right: 915px;
 	font-size: 27px;
 	font-family: 'Fredoka One';
 }
 
-#stakeholder {
+.play {
+	margin: 630px 0 0 -860px;
+}
+
+#urban-cycling-institute-logo {
 	/* "Urban Cycling institute" brand image */
 	float: left;
 	position: fixed;
 	top: 720px;
-	right: 1350px;
-	width: 50x;
-	height: 50px;
-}
-
-#share-buttons {
-	float: left;
-	position: fixed;
-	top: 720px;
-	right: 80px;
+	right: 1330px;
 	width: 50x;
 	height: 50px;
 }
