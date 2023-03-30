@@ -8,7 +8,8 @@ Using flex box change all of the positions of the elements (✓)
 Used padding, margin functions to position the elements beneath the heading (✓)
 Make a new Java Script file to move the js codes from the html to that new file, linked this js. to map.html (✓)
 Moving the style elements from the index-html to index.css (✓)
-Got the places.html link that Emma made and added into the index.html (~)
+Got the places.html link that Emma made and added into the index.html (✓)
+Deleted a person symbol into map.html (✓)
 
 Questions:
 How to change the font, i tried, but can't?
