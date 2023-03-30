@@ -1,6 +1,6 @@
 #scrolling-content {
-  height: 300px;
-  overflow-y: scroll;
+	height: 300px;
+	overflow-y: scroll;
 }
 
 button {
@@ -12,13 +12,15 @@ button {
 	margin-right: 15px;
 	padding: 10px 20px;
 }
+
 #pillNav2 .nav-link {
 	background-color: white;
 	color: black;
 }
 
-	
-#signed-in { /* the word */ 
+
+#signed-in {
+	/* the word */
 	float: right;
 	position: absolute;
 	top: 12px;
@@ -26,31 +28,36 @@ button {
 	font-family: 'Fredoka One';
 	width: 100px;
 }
+
 #people-symbol {
 	position: absolute;
 	top: 9px;
 	right: 14px;
 	width: 50x;
-	height: 50px;	
+	height: 50px;
 }
+
 #welcome-headline {
-padding: 0;
-color: black;
-text-align: center;
-font-size: 50px;
-font-family: 'Fredoka One';
-top: 1px;
+	padding: 0;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Fredoka One';
+	top: 1px;
 }
 
 
-#biking { /* an image */ 
+#biking {
+	/* an image */
 	position: absolute;
 	top: 200px;
 	right: 795px;
 	width: 280x;
-	height: 280px;	
+	height: 280px;
 }
-#title { /* "What is it like to live in Amsterdam?" */ 
+
+#title {
+	/* "What is it like to live in Amsterdam?" */
 	position: absolute;
 	top: 185px;
 	right: 260px;
@@ -58,6 +65,7 @@ top: 1px;
 	font-family: 'Fredoka One';
 	width: 500px;
 }
+
 #body {
 	position: absolute;
 	top: 240px;
@@ -67,14 +75,17 @@ top: 1px;
 	width: 400px;
 }
 
-#map { /* an image */ 
+#map {
+	/* an image */
 	position: absolute;
 	top: 490px;
 	right: 455px;
 	width: 220x;
-	height: 220px;	
+	height: 220px;
 }
-#title2 { /* "Game" */ 
+
+#title2 {
+	/* "Game" */
 	position: absolute;
 	top: 500px;
 	right: 600px;
@@ -82,6 +93,7 @@ top: 1px;
 	font-family: 'Fredoka One';
 	width: 500px;
 }
+
 #body2 {
 	position: absolute;
 	top: 540px;
@@ -90,6 +102,7 @@ top: 1px;
 	font-family: 'OpenSans', sans-serif;
 	width: 400px;
 }
+
 #play-button {
 	position: absolute;
 	top: 644px;
@@ -97,14 +110,16 @@ top: 1px;
 	font-size: 27px;
 	font-family: 'Fredoka One';
 }
-#stakeholder {  /* "Urban Cycling institute" brand image */ 
+
+#stakeholder {
+	/* "Urban Cycling institute" brand image */
 	float: left;
 	position: fixed;
 	top: 720px;
 	right: 1350px;
 	width: 50x;
 	height: 50px;
-}	
+}
 
 #share-buttons {
 	float: left;
