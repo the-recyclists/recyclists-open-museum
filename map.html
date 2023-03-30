@@ -1,51 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="stylesheet.css">
 	<link rel="map stylesheet" href="map.css">
+	<meta charset="utf-8">
+	<title>Our website prototype</title>
 </head>
-<meta charset="utf-8">
-<title>Our website prototype</title>
-</head>
+
+
 <body>
-<ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
-max-width: 500px position: absolute;">
-	<li class="nav-item" role="presentation">
-		<a class="nav-link active rounded-10" href="index.html">Home</a>
-	</li>
-	<li class="nav-item" role="presentation">
-		<a class="nav-link rounded-10" href="map.html">Map</a>
-	</li>
-	<li class="nav-item" role="presentation">
-		<a class="nav-link rounded-10" id="places-button">Places</a>
-	</li>
-	<li class="nav-item" role="presentation">
-		<a class="nav-link rounded-10" id="learn-more-button">Learn more</a>
-	</li>
-</ul>
-	
-<script>
-	var navButtons = document.querySelectorAll("#pillNav2 .nav-link");
-			for (var i = 0; i < navButtons.length; i++) {
-				navButtons[i].addEventListener("mouseover", function() {
-					this.style.backgroundColor = "lightgreen";
-					this.style.fontfamily = "Fredoka One"
-				});
-				navButtons[i].addEventListener("mouseout", function() {
-					this.style.backgroundColor = "";
-				});
-			}
-</script>
+	<ul>
+		<!-- The elements in the navigation bar -->
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">Map</a></li>
+		<li><a href="#">Place</a></li>
+		<li><a href="#">Learn more</a></li>
+	</ul>
 
-<!-- The images on the Home Page -->
-<img id="people-symbol" src="people symbol.png" alt="People symbol">
-<img id="question-symbol" src="question symbol.png" alt="Question symbol">
+	<img id="question-symbol" src="question symbol.png" alt="Question symbol">
+	<img id="map-of-amsterdam" src="map-of-amsterdam.jpg"
+		alt="This is a map of Amsterdam. It is covered with location markers that are links to different places in Amsterdam.">
 
-<div style="position:relative; top:70px; right:-1px;"> 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378.55193087384123!2d4.899675611299137!3d52.37263464735604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b939c067f9%3A0x366c68a3c4d59ea1!2sNieuwmarkt%2C%201012%20CR%20Amsterdam!5e0!3m2!1sen!2snl!4v1679913494290!5m2!1sen!2snl" 
-style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="1550" height="650"> </iframe> </div>
 </body>
+
 </html>
-		
