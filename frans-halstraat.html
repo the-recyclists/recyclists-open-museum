@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn More</title>
+
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="mission-stylesheet" href="missions.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
@@ -17,35 +19,26 @@
 
 <body>
 
-    <ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
-max-width: 500px position: absolute;">
-        <li class="nav-item" role="presentation">
-            <a class="nav-link active rounded-10" href="index.html">Home</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link rounded-10" href="map.html">Map</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link rounded-10" id="places-button">Places</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link rounded-10" id="learn-more-button" data-bs-toggle="tab" type="button" role="tab"
-                aria-selected="false">Learn more</a>
-        </li>
-    </ul>
+    <nav>
+        <ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist"
+            style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+max-width: 500px;">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active rounded-10" href="index.html">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-10" href="map.html">Map</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-10" href="places.html">Places</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-10" href="learn-more.html">Learn
+                    more</a>
+            </li>
+        </ul>
+    </nav>
 
-    <script>
-        var navButtons = document.querySelectorAll("#pillNav2 .nav-link");
-        for (var i = 0; i < navButtons.length; i++) {
-            navButtons[i].addEventListener("mouseover", function () {
-                this.style.backgroundColor = "lightgreen";
-                this.style.fontfamily = "Fredoka One"
-            });
-            navButtons[i].addEventListener("mouseout", function () {
-                this.style.backgroundColor = "";
-            });
-        }
-    </script>
 
     <div style="width: 600px; height: 70px; 
 background-color: lightpink; border: 1px solid black; 
@@ -62,7 +55,7 @@ text-align: left;
 font-size: 25px;
 padding-left: 10px;
 padding-top: 5px;
-font-family: 'Fredoka One';">
+font-family: 'Open Sans';">
         Mission: <br> Find a street in the Frans Halstraat neighorbood in De Pijp. Talk to someone about why there are
         so
         many plants
@@ -77,7 +70,7 @@ text-align: left;
 font-size: 25px;
 padding-left: 10px;
 padding-top: 5px;
-font-family: 'Fredoka One';">
+font-family: 'Open Sans';">
         De Pijp is a vibrant neighborhood located in the southern part of Amsterdam, known for its lively atmosphere,
         multiculturalism, and variety of restaurants and cafes. It's home to the famous Albert Cuyp Market and the
         picturesque Sarphatipark.
@@ -85,7 +78,6 @@ font-family: 'Fredoka One';">
 
 
     <!-- The images on the learn more page -->
-    <img id="stakeholder" src="stakeholder.png" alt="Urban Cycling Institute">
 
 
 

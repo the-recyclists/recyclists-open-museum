@@ -51,14 +51,13 @@
 }
 
 h1 {
-	/* Welcome headline */
 	padding-top: 8px;
 	margin-left: 10px;
 	margin-right: 10px;
 	color: black;
 	text-align: center;
 	font-size: 50px;
-	font-family: 'Fredoka One';
+	font-family: "Fredoka One";
 	top: 1px;
 }
 
@@ -67,6 +66,7 @@ h1 {
 	height: 70px;
 	background-color: lightpink;
 	border: 1px solid black;
+	font-family: "Fredoka One";
 }
 
 #biking {
@@ -93,7 +93,7 @@ p {
 	margin-right: 10px;
 	margin-top: -30px;
 	font-size: 24px;
-	font-family: 'OpenSans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #map {
@@ -128,11 +128,29 @@ p {
 }
 
 #urban-cycling-institute-logo {
-	/* "Urban Cycling institute" brand image */
-	float: left;
-	position: fixed;
-	top: 720px;
-	right: 1330px;
-	width: 50x;
-	height: 50px;
+	width: 10%;
+
+}
+
+#navbar {
+	--bs-nav-link-color: var(--bs-white);
+	--bs-nav-pills-link-active-color: var(--bs-primary);
+	--bs-nav-pills-link-active-bg: var(--bs-white);
+	max-width: 500px;
+	position: absolute;
+}
+
+.nav-link {
+	font-family: "Fredoka One";
+
+}
+
+#pillNav2 .nav-link:hover {
+	background-color: lightgreen;
+}
+
+#play-button {}
+
+.index-subheading {
+	font-family: "Fredoka One";
 }
