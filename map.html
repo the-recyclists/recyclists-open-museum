@@ -14,13 +14,25 @@
 
 
 <body>
-	<ul>
-		<!-- The elements in the navigation bar -->
-		<li><a href="index.html">Home</a></li>
-		<li><a href="#">Map</a></li>
-		<li><a href="#">Place</a></li>
-		<li><a href="#">Learn more</a></li>
-	</ul>
+	<nav>
+		<ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist"
+			style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+max-width: 500px;">
+			<li class="nav-item" role="presentation">
+				<a class="nav-link active rounded-10" href="index.html">Home</a>
+			</li>
+			<li class="nav-item" role="presentation">
+				<a class="nav-link rounded-10" href="map.html">Map</a>
+			</li>
+			<li class="nav-item" role="presentation">
+				<a class="nav-link rounded-10" href="places.html">Places</a>
+			</li>
+			<li class="nav-item" role="presentation">
+				<a class="nav-link rounded-10" href="learn-more.html">Learn
+					more</a>
+			</li>
+		</ul>
+	</nav>
 
 	<img id="question-symbol" src="question symbol.png" alt="Question symbol">
 	<div id="map-container">

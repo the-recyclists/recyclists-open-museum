@@ -51,7 +51,6 @@
 }
 
 h1 {
-	/* Welcome headline */
 	padding-top: 8px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -95,7 +94,7 @@ p {
 	margin-right: 10px;
 	margin-top: -30px;
 	font-size: 24px;
-	font-family: 'OpenSans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #map {
