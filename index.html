@@ -37,49 +37,57 @@
 
 
 
-	<!-- The images on the Home Page -->
+	<div id="homepage-content-container">
+		<div id="homepage-width-container">
+			<h1 id="homepage-heading">
+				<b>Welcome!</b>
+			</h1>
+
+			<section>
+				<div class="flex-box-row">
+					<img id="biking" src="biking.png" alt="this is an image of a biking in Amsterdam">
+					<div class="flex-box-column">
+						<h2 id="title-1" class="index-subheading">
+							Amsterdam In A Different Way?
+						</h2>
+
+						<p id="body-1">
+							Amsterdam is worlds cycling capital. The infrastructure in the city is made for the people,
+							what
+							does this look like?
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="flex-box-column-2">
+					<h2 id="title-2" class="index-subheading paddings">Game</h2>
+					<div class="flex-box-row-2">
+						<p id="body-2" class="paddings">
+							Instead of a large group bike tour, we want you to experience Amsterdam in a different way.
+							This
+							game includes a map of missions, divided into three urban areas: the city center, pre-war,
+							and
+							post-war areas. The missions aim to engage you in unique social and spatial experiences of
+							Amsterdam
+							as a cycling city.
+						</p>
+						<img id="map" src="map.png" alt="This is a map of Amsterdam">
+					</div>
+				</div>
+			</section>
+
+			<!-- Using Bootstrap on creating a "Play" button-->
+			<a href="map.html" id="play-button" class="btn btn-success btn-lg play-button">Play!</a>
+
+			<br>
+		</div>
+	</div>
 	<a href="https://urbancyclinginstitute.com/">
 		<img id="urban-cycling-institute-logo" src="urban cycling institute logo.png"
-			alt="This is a logo of the urban cycling institute and also a link.">
+			alt="Urban Cycling Institute Logo link">
 	</a>
-
-	<h1 id="homepage-heading">
-		<b>Welcome!</b>
-	</h1>
-
-	<section>
-		<div class="flex-box-row">
-			<img id="biking" src="biking.png" alt="this is an image of a biking in Amsterdam">
-			<div class="flex-box-column">
-				<h2 id="title-1">
-					Amsterdam In A Different Way?
-				</h2>
-
-				<p id="body-1">
-					Amsterdam is worlds cycling capital. The infrastructure in the city is made for the people, what
-					does this look like?
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section>
-		<div class="flex-box-column-2">
-			<h2 id="title-2" class="paddings">Game</h2>
-			<div class="flex-box-row-2">
-				<p id="body-2" class="paddings">
-					Instead of a large group bike tour, we want you to experience Amsterdam in a different way. This
-					game includes a map of missions, divided into three urban areas: the city center, pre-war, and
-					post-war areas. The missions aim to engage you in unique social and spatial experiences of Amsterdam
-					as a cycling city.
-				</p>
-				<img id="map" src="map.png" alt="This is a map of Amsterdam">
-			</div>
-		</div>
-	</section>
-
-	<!-- Using Bootstrap on creating a "Play" button-->
-	<a href="map.html" class="btn btn-success btn-lg play-button" role="button" data-bs-toggle="button">Play!</a>
 
 	<!-- Using Bootstrap on creating a "Play" button-->
 	<a href="map.html" class="btn btn-success btn-lg" role="button" data-bs-toggle="button"

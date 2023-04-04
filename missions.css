@@ -1,0 +1,33 @@
+p {
+    padding-left: 15%;
+}
+
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission-task {
+    background-color: rgb(253, 255, 182);
+    border: 1px solid black;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Open Sans';
+    width: 70%;
+}
+
+#mission-description {
+    background-color: #b6d4ff;
+    border: 1px solid black;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Open Sans';
+    width: 70%;
+}

@@ -17,78 +17,52 @@
 
 <body>
 
-    <ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
-max-width: 500px position: absolute;">
-        <li class="nav-item" role="presentation">
-            <a class="nav-link active rounded-10" href="index.html">Home</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link rounded-10" href="map.html">Map</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link rounded-10" id="places-button">Places</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a class="nav-link rounded-10" id="learn-more-button" data-bs-toggle="tab" type="button" role="tab"
-                aria-selected="false">Learn more</a>
-        </li>
-    </ul>
+    <nav>
+        <ul class="nav nav-pills gap-3 p-2 small rounded-5 shadow-sm rounded mx-auto" id="pillNav2" role="tablist"
+            style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+max-width: 500px;">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active rounded-10" href="index.html">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-10" href="map.html">Map</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-10" href="places.html">Places</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link rounded-10" href="learn-more.html">Learn
+                    more</a>
+            </li>
+        </ul>
+    </nav>
 
-    <script>
-        var navButtons = document.querySelectorAll("#pillNav2 .nav-link");
-        for (var i = 0; i < navButtons.length; i++) {
-            navButtons[i].addEventListener("mouseover", function () {
-                this.style.backgroundColor = "lightgreen";
-                this.style.fontfamily = "Fredoka One"
-            });
-            navButtons[i].addEventListener("mouseout", function () {
-                this.style.backgroundColor = "";
-            });
-        }
-    </script>
-
-    <div style="width: 600px; height: 70px; 
-background-color: lightpink; border: 1px solid black; 
-position: absolute; top: 130px; right:100px; transform: translate(-50%, -50%); color: black;
+    <div class="mission-container">
+        <h1 style="
+background-color: lightpink; 
+border: 1px solid black; color: black;
 text-align: center;
 font-size: 50px;
 font-family: 'Fredoka One';
-">Frans Halstraat</div>
+width: 70%;">Frans Halstraat</h1>
 
-    <div style="width: 1200px; height: 150px; 
-background-color: rgb(253, 255, 182); border: 1px solid black; 
-position: absolute; top: 185px; right: 100px; color: black;
-text-align: left;
-font-size: 25px;
-padding-left: 10px;
-padding-top: 5px;
-font-family: 'Fredoka One';">
-        Mission: <br> Find a street in the Frans Halstraat neighorbood in De Pijp. Talk to someone about why there are
-        so
-        many plants
-        growing in car parking spaces and what do they think about the initiative?
+        <p id="mission-task">
+            Mission: <br> Find a street in the Frans Halstraat neighorbood in De Pijp. Talk to someone about why there
+            are so many plants growing in car parking spaces and what do they think about the initiative?
+        </p>
+
+        <p id="mission-description">
+            De Pijp is a vibrant neighborhood located in the southern part of Amsterdam, known for its lively
+            atmosphere,
+            multiculturalism, and variety of restaurants and cafes. It's home to the famous Albert Cuyp Market and the
+            picturesque Sarphatipark.
+        </p>
+
+
+        <!-- The images on the learn more page -->
+
 
     </div>
-
-    <div style="width: 600px; height: 240px; 
-background-color: #b6d4ff; border: 1px solid black; 
-position: absolute; top: 350px; left: 140px; color: black;
-text-align: left;
-font-size: 25px;
-padding-left: 10px;
-padding-top: 5px;
-font-family: 'Fredoka One';">
-        De Pijp is a vibrant neighborhood located in the southern part of Amsterdam, known for its lively atmosphere,
-        multiculturalism, and variety of restaurants and cafes. It's home to the famous Albert Cuyp Market and the
-        picturesque Sarphatipark.
-    </div>
-
-
-    <!-- The images on the learn more page -->
-    <img id="stakeholder" src="stakeholder.png" alt="Urban Cycling Institute">
-
-
-
 
 
 </body>

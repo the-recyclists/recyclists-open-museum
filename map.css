@@ -35,3 +35,27 @@ button {
 	background-color: white;
 	color: black;
 }
+
+#map-container {
+	text-align: center;
+}
+
+#map-of-amsterdam {
+	width: 95%;
+}
+
+.map-marker {
+	width: 4%;
+}
+
+#map-marker-frans-halstraat {
+	position: relative;
+	top: 5vw;
+	right: 55%;
+}
+
+#map-marker-nieuwmarkt {
+	position: relative;
+	top: 1vw;
+	right: 50%;
+}

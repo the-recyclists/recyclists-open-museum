@@ -58,7 +58,7 @@ h1 {
 	color: black;
 	text-align: center;
 	font-size: 50px;
-	font-family: 'Fredoka One';
+	font-family: "Open Sans";
 	top: 1px;
 }
 
@@ -67,6 +67,8 @@ h1 {
 	height: 70px;
 	background-color: lightpink;
 	border: 1px solid black;
+	font-family: "Open Sans";
+	font-weight: bolder;
 }
 
 #biking {
@@ -79,7 +81,7 @@ h2 {
 	margin-left: 10px;
 	margin-right: 10px;
 	font-size: 28px;
-	font-family: 'Fredoka One';
+	font-family: 'Open Sans';
 }
 
 #title-1 {
@@ -120,7 +122,7 @@ p {
 	margin-bottom: 20px;
 	right: 915px;
 	font-size: 27px;
-	font-family: 'Fredoka One';
+	font-family: 'Open Sans';
 }
 
 .play {
@@ -128,11 +130,71 @@ p {
 }
 
 #urban-cycling-institute-logo {
-	/* "Urban Cycling institute" brand image */
-	float: left;
-	position: fixed;
-	top: 720px;
-	right: 1330px;
-	width: 50x;
-	height: 50px;
+	width: 10%;
+
+}
+
+#navbar {
+	--bs-nav-link-color: var(--bs-white);
+	--bs-nav-pills-link-active-color: var(--bs-primary);
+	--bs-nav-pills-link-active-bg: var(--bs-white);
+	max-width: 500px;
+	position: absolute;
+}
+
+.nav-link {
+	font-family: "Open Sans";
+
+}
+
+#pillNav2 .nav-link:hover {
+	background-color: lightgreen;
+}
+
+#play-button {}
+
+.index-subheading {
+	font-family: "Open Sans";
+}
+
+.mission-container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#mission-task {
+	background-color: rgb(255, 229, 182);
+	border: 1px solid black;
+	color: black;
+	text-align: left;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: 'Open Sans';
+	width: 70%;
+}
+
+#mission-description {
+	background-color: #b6d4ff;
+	border: 1px solid black;
+	color: black;
+	text-align: left;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: 'Open Sans';
+	width: 70%;
+}
+
+#homepage-content-container {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#homepage-width-container {
+	width: 70%;
 }
