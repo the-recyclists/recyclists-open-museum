@@ -1,0 +1,46 @@
+A few important rules/guidelines for coding.
+"Knowing how to code" is really as much about making sure your code is as 
+readable as possible as it is about anything else.
+(Especially for relatively straightforward like in web design.)
+They aren't teaching us that very much in the workshops, 
+so I am putting it briefly in this file. :)
+
+
+1. Use conventions, keep it consistent
+
+Use the same notation for everything according to the code it's written in.
+For example, in html and css variables are written like this: "my-first-variable".
+No caps, separated by dashes. Same with file names. Conventions makes it easier
+to know what is what in code and minimises confusion, it's very important.
+
+Note: conventions aren't the same in every language. If we had javascript files,
+the convention for variables would be to write them like this: "myFirstVariable" 
+(this is called camelCase https://en.wikipedia.org/wiki/Camel_case), 
+and only in those javascrit files.
+
+
+2. HTML has a bunch of elements. Always use them!
+
+MDN is the best documentation for html/css/javascript. Here is a list of all
+html elements https://developer.mozilla.org/en-US/docs/Web/HTML/Element.
+Always use the most specific element you can use.
+If you're writing a paragraph, use <p>. If you have a section, use <section>.
+If you have a link, use <a>. Ordered lists use <ol>, unordered lists use <ul> 
+and they both contain individual list elenets <li>. There are a looooot more, try
+to make sure you use the right ones.
+
+This is important for two reasons: it makes the html that much more readable 
+(if the code is just <div> everywhere, you have no idea what is what), and screen readers
+(software that literally reads the screen out loud for people who can't see) makes
+use of elements to properly read out the page, without the proper elements it becomes
+unreadable and you make your page less accessible.
+
+
+3. Generic styling goes in css files
+
+Always put element styling in a separate css file, NOT in the html file (this is called
+"inline styling" and it should be avoided.) It makes it easier to organise styling for the
+document.
+
+
+
